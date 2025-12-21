@@ -1,0 +1,50 @@
+.greeting-name h2{
+    color:rgb(7, 180, 248);
+    font-weight: bold;
+    font-size: 50px;
+    margin-left:420px ;
+    margin-top: 800px;
+}
+
+.greeting-name h3 {
+    color:rgb(7, 180, 248);
+    font-weight: bolder;
+    font-size: 80px;
+    text-align: center;
+}
+
+.handles {
+   color:rgb(7, 180, 248); 
+   margin-left:50px;
+   margin-top: 90px;
+}
+
+.handlelink {
+    display:flex;
+    flex-direction: row;
+    gap:100px;
+}
+.handlelink a {
+    font-size: 5rem;
+    text-decoration: none;
+    color:wheat;
+}
+
+.handlelink a:hover {
+    transform: scale(1.1);
+}
+
+.about h3 {
+    color:rgb(7, 180, 248); 
+    text-align: center;
+    font-size: 30px; 
+    margin-top: 60px;
+}
+
+.about p {
+    color:white;
+    padding: 30px;
+    text-align: justify;
+    font-size: 1.7rem;
+    font-style: italic;
+}

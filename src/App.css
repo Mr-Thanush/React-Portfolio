@@ -1,0 +1,35 @@
+body.dark {
+    color:white;
+}
+
+body.light .navLinks a{
+    color:black;
+}
+
+body.light .navLinks #remove {
+    color:rgb(7, 180, 248);
+}
+
+body.light .bar1 , body.light .bar3,body.light .bar2 {
+  background: black;
+}
+
+body.light .portfolio {
+   color: black;  
+}
+
+body.light .fa-moon {
+    color: black;  
+}
+
+body.light .fa-house {
+    color: black;  
+}
+
+body.light nav {
+    border:2px solid black;  
+     box-shadow: 0 0 20px black;
+}
+
+
+
