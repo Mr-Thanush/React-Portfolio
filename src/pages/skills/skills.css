@@ -1,0 +1,446 @@
+.Containers {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-top: 70px;
+}
+
+.container1 {
+ width:100vw;
+ box-shadow: 0 14px 20px black;
+ padding:10px;
+}
+
+.skill1 {
+   color:rgb(7, 180, 248);
+   margin-left: 50px;
+}
+
+.container2 {
+ width:100vw;
+ padding:10px;
+ box-shadow: 0 14px 20px black;
+}
+
+.skill2 {
+   color:rgb(7, 180, 248);
+   margin-left: 50px;
+}
+
+.ProfSkills {
+    display: none;
+}
+.container1.now .ProfSkills{
+    display: block;
+}
+
+.softSkills {
+    display: none;
+}
+
+.container2.soft .softSkills{
+    display: block;
+}
+
+
+.html {
+    width: 90vw;
+    background: rgb(227, 226, 226);
+    height: 10vh;
+    margin: 40px auto;
+    border-radius: 10px;
+    box-shadow: 0 0px 20px black;
+}
+
+.html pre {
+    color: rgb(7, 180, 248);
+    width: 65vw;
+    height: 5vh;
+    font-weight: bolder;
+    font-size: 27px;
+    margin: auto;
+    padding-top: 15px;
+    text-align: center;
+}
+
+.bars {
+     width:70vw;
+     margin: auto;
+     
+}
+.bars .bar1 {
+    width:65vw;
+    height: 1vh;
+    background: rgb(91, 73, 73);
+    margin:auto;
+    border: 3px solid rgb(109, 110, 110);
+    border-radius: 20px;
+    box-shadow: 0 0 20px rgb(249, 2, 216);
+}
+
+.bar1 .bar2 {
+    background: rgb(249, 2, 212);
+    width:60vw;
+     border: 2px solid rgb(249, 2, 216); 
+     
+}
+
+
+.bars1 {
+     width:70vw;
+     margin: auto;
+     
+}
+.bars1 .bar1 {
+    width:65vw;
+    height: 1vh;
+    background: rgb(91, 73, 73);
+    margin:auto;
+    border: 3px solid rgb(109, 110, 110);
+    border-radius: 20px;
+    box-shadow: 0 0 20px rgb(249, 2, 216);
+}
+
+.bars1 .bar1 .bar2 {
+    background: rgb(249, 2, 212);
+    width:56vw;
+     border: 2px solid rgb(249, 2, 216); 
+     
+}
+
+
+.bars2 {
+     width:70vw;
+     margin: auto;
+     
+}
+.bars2 .bar1 {
+    width:65vw;
+    height: 1vh;
+    background: rgb(91, 73, 73);
+    margin:auto;
+    border: 3px solid rgb(109, 110, 110);
+    border-radius: 20px;
+    box-shadow: 0 0 20px rgb(249, 2, 216);
+}
+
+.bars2 .bar1 .bar2 {
+    background: rgb(249, 2, 212);
+    width:50vw;
+     border: 2px solid rgb(249, 2, 216); 
+     
+}
+
+
+.bars3 {
+     width:70vw;
+     margin: auto;
+     
+}
+.bars3 .bar1 {
+    width:65vw;
+    height: 1vh;
+    background: rgb(91, 73, 73);
+    margin:auto;
+    border: 3px solid rgb(109, 110, 110);
+    border-radius: 20px;
+    box-shadow: 0 0 20px rgb(249, 2, 216);
+}
+
+.bars3 .bar1 .bar2 {
+    background: rgb(249, 2, 212);
+    width:56vw;
+     border: 2px solid rgb(249, 2, 216); 
+     
+}
+
+.bars4 {
+     width:70vw;
+     margin: auto;
+     
+}
+.bars4 .bar1 {
+    width:65vw;
+    height: 1vh;
+    background: rgb(91, 73, 73);
+    margin:auto;
+    border: 3px solid rgb(109, 110, 110);
+    border-radius: 20px;
+    box-shadow: 0 0 20px rgb(249, 2, 216);
+}
+
+.bars4 .bar1 .bar2 {
+    background: rgb(249, 2, 212);
+    width:50vw;
+     border: 2px solid rgb(249, 2, 216); 
+     
+}
+
+
+.bars5 {
+     width:70vw;
+     margin: auto;
+     
+}
+.bars5 .bar1 {
+    width:65vw;
+    height: 1vh;
+    background: rgb(91, 73, 73);
+    margin:auto;
+    border: 3px solid rgb(109, 110, 110);
+    border-radius: 20px;
+    box-shadow: 0 0 20px rgb(249, 2, 216);
+}
+
+.bars5 .bar1 .bar2 {
+    background: rgb(249, 2, 212);
+    width:62vw;
+     border: 2px solid rgb(249, 2, 216); 
+     
+}
+
+.bars6 {
+     width:70vw;
+     margin: auto;
+     
+}
+.bars6 .bar1 {
+    width:65vw;
+    height: 1vh;
+    background: rgb(91, 73, 73);
+    margin:auto;
+    border: 3px solid rgb(109, 110, 110);
+    border-radius: 20px;
+    box-shadow: 0 0 20px rgb(249, 2, 216);
+}
+
+.bars6 .bar1 .bar2 {
+    background: rgb(249, 2, 212);
+    width:56vw;
+     border: 2px solid rgb(249, 2, 216); 
+     
+}
+
+
+
+.bars7 {
+     width:70vw;
+     margin: auto;
+     
+}
+.bars7 .bar1 {
+    width:65vw;
+    height: 1vh;
+    background: rgb(91, 73, 73);
+    margin:auto;
+    border: 3px solid rgb(109, 110, 110);
+    border-radius: 20px;
+    box-shadow: 0 0 20px rgb(249, 2, 216);
+}
+
+.bars7 .bar1 .bar2 {
+    background: rgb(249, 2, 212);
+    width:61vw;
+     border: 2px solid rgb(249, 2, 216); 
+     
+}
+
+
+
+.bars8 {
+     width:70vw;
+     margin: auto;
+     
+}
+.bars8 .bar1 {
+    width:65vw;
+    height: 1vh;
+    background: rgb(91, 73, 73);
+    margin:auto;
+    border: 3px solid rgb(109, 110, 110);
+    border-radius: 20px;
+    box-shadow: 0 0 20px rgb(249, 2, 216);
+}
+
+.bars8 .bar1 .bar2 {
+    background: rgb(249, 2, 212);
+    width:62vw;
+     border: 2px solid rgb(249, 2, 216); 
+     
+}
+
+
+
+
+.css {
+    width: 90vw;
+    background: rgb(227, 226, 226);
+    height: 10vh;
+    margin: 40px auto;
+    border-radius: 10px;
+    box-shadow: 0 0px 20px black;
+}
+
+.css pre {
+   color: rgb(7, 180, 248);
+    width: 65vw;
+    height: 5vh;
+    font-weight: bolder;
+    font-size: 27px;
+    margin: 15px auto;
+    padding-top: 15px;
+    text-align: center;
+}
+
+.javascript {
+     width: 90vw;
+    background: rgb(227, 226, 226);
+    height: 10vh;
+    margin: 40px auto;
+    border-radius: 10px;
+    box-shadow: 0 0px 20px black;
+}
+
+.javascript pre {
+    color: rgb(7, 180, 248);
+    width: 65vw;
+    height: 5vh;
+    font-weight: bolder;
+    font-size: 27px;
+    margin: 15px auto;
+    padding-top: 15px;
+    text-align: center;
+}
+
+
+
+.react {
+     width: 90vw;
+    background: rgb(227, 226, 226);
+    height: 10vh;
+    margin: 40px auto;
+    border-radius: 10px;
+    box-shadow: 0 0px 20px black;
+}
+
+.react pre {
+    color: rgb(7, 180, 248);
+    width: 65vw;
+    height: 5vh;
+    font-weight: bolder;
+    font-size: 27px;
+    margin: 15px auto;
+    padding-top: 15px;
+    text-align: center;
+}
+
+
+.Comunication {
+     width: 90vw;
+    background: rgb(227, 226, 226);
+    height: 10vh;
+    margin: 40px auto;
+    border-radius: 10px;
+    box-shadow: 0 0px 20px black;
+}
+
+.Comunication pre {
+     color: rgb(7, 180, 248);
+    width: 65vw;
+    height: 5vh;
+    font-weight: bolder;
+    font-size: 27px;
+    margin: 15px auto;
+    padding-top: 15px;
+    text-align: center;
+}
+
+
+.ProblemSolving {
+     width: 90vw;
+    background: rgb(227, 226, 226);
+    height: 10vh;
+    margin: 40px auto;
+    border-radius: 10px;
+    box-shadow: 0 0px 20px black;
+}
+
+.ProblemSolving pre {
+    color: rgb(7, 180, 248);
+    width: 65vw;
+    height: 5vh;
+    font-weight: bolder;
+    font-size: 27px;
+    margin: 15px auto;
+    padding-top: 15px;
+    text-align: center;
+}
+
+
+.TeamWork {
+     width: 90vw;
+    background: rgb(227, 226, 226);
+    height: 10vh;
+    margin: 40px auto;
+    border-radius: 10px;
+    box-shadow: 0 0px 20px black;
+}
+
+.TeamWork pre {
+   color: rgb(7, 180, 248);
+    width: 65vw;
+    height: 5vh;
+    font-weight: bolder;
+    font-size: 27px;
+    margin: 15px auto;
+    padding-top: 15px;
+    text-align: center;
+}
+
+
+
+.TimeManagement {
+     width: 90vw;
+    background: rgb(227, 226, 226);
+    height: 10vh;
+    margin: 40px auto;
+    border-radius: 10px;
+    box-shadow: 0 0px 20px black;
+}
+
+.TimeManagement pre {
+    color: rgb(7, 180, 248);
+    width: 65vw;
+    height: 5vh;
+    font-weight: bolder;
+    font-size: 27px;
+    margin: 15px auto;
+    padding-top: 15px;
+    text-align: center;
+}
+
+
+
+.LeaderShip {
+     width: 90vw;
+    background: rgb(227, 226, 226);
+    height: 10vh;
+    margin: 40px auto;
+    border-radius: 10px;
+    box-shadow: 0 0px 20px black;
+}
+
+.LeaderShip pre {
+    color: rgb(7, 180, 248);
+    width: 65vw;
+    height: 5vh;
+    font-weight: bolder;
+    font-size: 27px;
+    margin: 15px auto;
+    padding-top: 15px;
+    text-align: center;
+}
+
+
+
+

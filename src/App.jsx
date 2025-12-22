@@ -2,6 +2,7 @@ import { useState,useEffect } from 'react'
 import './App.css'
 import Home from './pages/Home/home'
 import NavBar from './components/NavBar/navbar'
+import Skills from './pages/skills/skills'
 function App() { 
   const[darkMode,setDarkMode]=useState(false);
 
@@ -12,8 +13,9 @@ function App() {
 
   return (
     <>
-    <NavBar darkMode={darkMode} setDarkMode={setDarkMode}/>
+    {/* <NavBar darkMode={darkMode} setDarkMode={setDarkMode}/> */}
     {/* <Home /> */}
+    <Skills />
    
 
     </>
