@@ -6,6 +6,7 @@ nav {
     display: flex;
     flex-direction:row;
     width: 100vw;
+    height: 6vh;
     overflow-x: hidden;
     box-shadow: 0 0 20px rgb(7, 180, 248);
 }
@@ -13,8 +14,10 @@ nav {
 .portfolio {
     color: rgb(7, 180, 248);
     margin-left:100px;
-    margin-top: 5px;
+    text-decoration: none;
 }
+
+
 
 .mode {
      padding-left:0px;
@@ -85,6 +88,10 @@ nav {
      position: relative;
      top:10%;
      font-size: 1.5rem;
+}
+
+.active {
+    font-weight: bold;
 }
 
 .navLinks .a-bottom{

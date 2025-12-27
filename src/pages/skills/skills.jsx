@@ -13,24 +13,24 @@ function Skills (){
       <div className="ProfSkills">
         <div className="html">
      <pre>HTML                   95%</pre>
-     <div className="bars">
-        <div className="bar1">
+     <div className="barsOne">
+        <div className="barOne">
             <div className="bar2"></div>
             </div>
-     </div>
+     </div> 
         </div>
         <div className="css">
             <pre>CSS                    90%</pre>
             <div className="bars1">
-        <div className="bar1">
+        <div className="barOne">
             <div className="bar2"></div>
             </div>
-     </div>
+     </div> 
         </div>
         <div className="javascript">
             <pre>JAVASCRIPT             80%</pre>
 <div className="bars2">
-        <div className="bar1">
+        <div className="barOne">
             <div className="bar2"></div>
             </div>
      </div>
@@ -39,11 +39,11 @@ function Skills (){
          <div className="react">
             <pre>REACT                  90%</pre>
             <div className="bars3">
-        <div className="bar1">
+        <div className="barOne">
             <div className="bar2"></div>
             </div>
        </div>
-        </div>
+        </div> 
       </div>
     </div>
     <div className={`container2 ${soft? "soft":" "}`}
@@ -53,7 +53,7 @@ function Skills (){
         <div className="Comunication">
            <pre>COMUNICATION           80%</pre>
             <div className="bars4">
-        <div className="bar1">
+        <div className="barOne">
             <div className="bar2"></div>
             </div>
        </div>
@@ -62,7 +62,7 @@ function Skills (){
         <div className="ProblemSolving">
             <pre>PROBLEMSOLVING         97%</pre>
             <div className="bars5">
-        <div className="bar1">
+        <div className="barOne">
             <div className="bar2"></div>
             </div>
        </div>
@@ -70,7 +70,7 @@ function Skills (){
         <div className="TeamWork">
            <pre>TEAMWORK               90%</pre>
             <div className="bars6">
-        <div className="bar1">
+        <div className="barOne">
             <div className="bar2"></div>
             </div>
        </div>
@@ -78,16 +78,16 @@ function Skills (){
         <div className="TimeManagement">
             <pre>TIMEMANAGEMENT         96%</pre>
             <div className="bars7">
-        <div className="bar1">
+        <div className="barOne">
             <div className="bar2"></div>
             </div>
-       </div>
+       </div> 
 
         </div>
         <div className="LeaderShip">
             <pre>LEADERSHIP             97%</pre>
             <div className="bars8">
-        <div className="bar1">
+        <div className="barOne">
             <div className="bar2"></div>
             </div>
        </div>

@@ -1,0 +1,35 @@
+.heading h1{
+    margin: 50px 0 0 20px;
+}
+
+.heading hr {
+    border: 3px solid black;
+    width: 100vw;
+}
+
+.certificatesFirst{
+     display: flex;
+     align-items: center;
+     justify-content: start;
+     flex-wrap: wrap;
+     gap: 10px;
+     width: 100vw;
+     margin-left: 10px;
+
+}
+
+.certificatesFirst a {
+    font-size: 1.3rem;
+    display: inline;
+    white-space: nowrap;
+    text-decoration: none;
+    color: rgb(68, 70, 70);
+    background-color: rgb(185, 185, 193);
+    border-radius: 30px;
+    padding: 10px;
+    border: 2px solid rgb(41, 43, 43);
+}
+
+.certificatesFirst a:hover {
+    box-shadow: 0 0 20px  rgb(68, 70, 70);
+}

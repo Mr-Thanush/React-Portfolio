@@ -1,8 +1,8 @@
 .Containers {
     display: flex;
     flex-direction: column;
-    gap: 10px;
-    margin-top: 70px;
+    gap: 20px;
+
 }
 
 .container1 {
@@ -10,21 +10,24 @@
  box-shadow: 0 14px 20px black;
  padding:10px;
 }
-
+ 
 .skill1 {
    color:rgb(7, 180, 248);
-   margin-left: 50px;
-}
+    margin: auto;
+    text-decoration: none;
+    padding: 10px; 
+} 
 
 .container2 {
  width:100vw;
- padding:10px;
  box-shadow: 0 14px 20px black;
 }
 
 .skill2 {
    color:rgb(7, 180, 248);
-   margin-left: 50px;
+   margin: auto;
+   text-decoration: none;
+    padding: 20px;
 }
 
 .ProfSkills {
@@ -63,12 +66,12 @@
     text-align: center;
 }
 
-.bars {
+.barsOne {
      width:70vw;
      margin: auto;
      
 }
-.bars .bar1 {
+.barsOne .barOne {
     width:65vw;
     height: 1vh;
     background: rgb(91, 73, 73);
@@ -78,20 +81,20 @@
     box-shadow: 0 0 20px rgb(249, 2, 216);
 }
 
-.bar1 .bar2 {
+.barOne .bar2 {
     background: rgb(249, 2, 212);
     width:60vw;
      border: 2px solid rgb(249, 2, 216); 
      
 }
-
+ 
 
 .bars1 {
      width:70vw;
      margin: auto;
      
 }
-.bars1 .bar1 {
+.bars1 .barOne {
     width:65vw;
     height: 1vh;
     background: rgb(91, 73, 73);
@@ -101,7 +104,7 @@
     box-shadow: 0 0 20px rgb(249, 2, 216);
 }
 
-.bars1 .bar1 .bar2 {
+.bars1 .barOne .bar2 {
     background: rgb(249, 2, 212);
     width:56vw;
      border: 2px solid rgb(249, 2, 216); 
@@ -114,7 +117,7 @@
      margin: auto;
      
 }
-.bars2 .bar1 {
+.bars2 .barOne {
     width:65vw;
     height: 1vh;
     background: rgb(91, 73, 73);
@@ -124,7 +127,7 @@
     box-shadow: 0 0 20px rgb(249, 2, 216);
 }
 
-.bars2 .bar1 .bar2 {
+.bars2 .barOne .bar2 {
     background: rgb(249, 2, 212);
     width:50vw;
      border: 2px solid rgb(249, 2, 216); 
@@ -137,7 +140,7 @@
      margin: auto;
      
 }
-.bars3 .bar1 {
+.bars3 .barOne {
     width:65vw;
     height: 1vh;
     background: rgb(91, 73, 73);
@@ -147,7 +150,7 @@
     box-shadow: 0 0 20px rgb(249, 2, 216);
 }
 
-.bars3 .bar1 .bar2 {
+.bars3 .barOne .bar2 {
     background: rgb(249, 2, 212);
     width:56vw;
      border: 2px solid rgb(249, 2, 216); 
@@ -159,7 +162,7 @@
      margin: auto;
      
 }
-.bars4 .bar1 {
+.bars4 .barOne {
     width:65vw;
     height: 1vh;
     background: rgb(91, 73, 73);
@@ -169,7 +172,7 @@
     box-shadow: 0 0 20px rgb(249, 2, 216);
 }
 
-.bars4 .bar1 .bar2 {
+.bars4 .barOne .bar2 {
     background: rgb(249, 2, 212);
     width:50vw;
      border: 2px solid rgb(249, 2, 216); 
@@ -182,7 +185,7 @@
      margin: auto;
      
 }
-.bars5 .bar1 {
+.bars5 .barOne {
     width:65vw;
     height: 1vh;
     background: rgb(91, 73, 73);
@@ -192,7 +195,7 @@
     box-shadow: 0 0 20px rgb(249, 2, 216);
 }
 
-.bars5 .bar1 .bar2 {
+.bars5 .barOne .bar2 {
     background: rgb(249, 2, 212);
     width:62vw;
      border: 2px solid rgb(249, 2, 216); 
@@ -204,7 +207,7 @@
      margin: auto;
      
 }
-.bars6 .bar1 {
+.bars6 .barOne {
     width:65vw;
     height: 1vh;
     background: rgb(91, 73, 73);
@@ -214,7 +217,7 @@
     box-shadow: 0 0 20px rgb(249, 2, 216);
 }
 
-.bars6 .bar1 .bar2 {
+.bars6 .barOne .bar2 {
     background: rgb(249, 2, 212);
     width:56vw;
      border: 2px solid rgb(249, 2, 216); 
@@ -228,7 +231,7 @@
      margin: auto;
      
 }
-.bars7 .bar1 {
+.bars7 .barOne {
     width:65vw;
     height: 1vh;
     background: rgb(91, 73, 73);
@@ -238,7 +241,7 @@
     box-shadow: 0 0 20px rgb(249, 2, 216);
 }
 
-.bars7 .bar1 .bar2 {
+.bars7 .barOne .bar2 {
     background: rgb(249, 2, 212);
     width:61vw;
      border: 2px solid rgb(249, 2, 216); 
@@ -252,7 +255,7 @@
      margin: auto;
      
 }
-.bars8 .bar1 {
+.bars8 .barOne {
     width:65vw;
     height: 1vh;
     background: rgb(91, 73, 73);
@@ -262,7 +265,7 @@
     box-shadow: 0 0 20px rgb(249, 2, 216);
 }
 
-.bars8 .bar1 .bar2 {
+.bars8 .barOne .bar2 {
     background: rgb(249, 2, 212);
     width:62vw;
      border: 2px solid rgb(249, 2, 216); 
@@ -440,6 +443,7 @@
     padding-top: 15px;
     text-align: center;
 }
+
 
 
 

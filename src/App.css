@@ -10,6 +10,14 @@ body.light .navLinks #remove {
     color:rgb(7, 180, 248);
 }
 
+body.light .about p{
+    color: black;
+}
+body.light .handlelinkOne a{
+    color: rgb(255, 137, 2);
+}
+
+
 body.light .bar1 , body.light .bar3,body.light .bar2 {
   background: black;
 }
