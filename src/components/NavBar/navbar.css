@@ -109,7 +109,7 @@ nav {
 .navLinks {
     position: absolute;
     top: 0;
-    background: rgba(255, 255, 255, 0.15);
+    background: rgba(255, 255, 255, 0.441);
     backdrop-filter: blur(10px);
     -webkit-backdrop-filter: blur(10px);
     border-radius: 0 16px 16px 0;
@@ -242,6 +242,10 @@ nav {
         z-index: 99;
     }
 
+    .navLinks {
+        min-height: 100vh;
+        background-color: ;
+    }
     .navLinks .a-top {
         list-style: none;
         text-decoration: none;
@@ -291,7 +295,7 @@ nav {
         transform: rotate(-45deg) translate(6px, -6px);
         position: absolute;
         left: 5%;
-        top: 4%;
+        top: 4.5%;
     }
 
 }
