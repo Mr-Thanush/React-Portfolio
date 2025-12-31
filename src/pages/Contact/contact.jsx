@@ -1,16 +1,16 @@
 import React from "react";
 import './contact.css'
 
-function Contact() {
+function Contact() { 
   return (
     <>
     <h1>Your Message Matters</h1>
       <div className="box1">
         <div className="links">
-          <a href="#" target="_blank"><i className="fa-brands fa-linkedin"></i></a>
-          <a href="#" target="_blank"><i className="fa-brands fa-instagram"></i></a>
-          <a href="#" target="_blank"><i className="fa-brands fa-github"></i></a>
-          <a href="#" target="_blank"><i className="fa-brands fa-youtube"></i></a>
+          <a href="https://www.linkedin.com/in/thanush26" target="_blank"><i className="fa-brands fa-linkedin"></i></a>
+          <a href="https://www.instagram.com/mr._thanush_" target="_blank"><i className="fa-brands fa-instagram"></i></a>
+          <a href="https://github.com/Mr-Thanush" target="_blank"><i className="fa-brands fa-github"></i></a>
+          <a href="https://www.youtube.com/@CodingAiWorkshop" target="_blank"><i className="fa-brands fa-youtube"></i></a>
         </div>
       </div>
       
@@ -23,14 +23,14 @@ function Contact() {
           <button>Submit</button>
         </form>
       </div>
-
+ 
 
       <div className="box3">
       <h2>My Services</h2>
         
        
         <div className="mernStack">
-          <h3>MERN Stack Full-stack Development</h3>
+          <h3>MERN Full-stack Development</h3>
           <hr />
           <p>I built fast,secure and scalable full-stack web application using <b>MangoDb,ExpressJs,ReactJs and NodeJs.</b></p>
         </div>

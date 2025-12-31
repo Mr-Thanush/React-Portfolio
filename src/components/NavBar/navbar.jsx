@@ -6,9 +6,9 @@ import './navbar.css'
 function NavBar({darkMode,setDarkMode}){
     const[open,setOpen]=useState(false);
     const location=useLocation();
- return (
+ return ( 
     <> 
-    <nav>
+    <nav> 
          <div className={`menuBars ${open ? "open":" "}`}
          onClick={()=>setOpen(!open)}>
                <div className="bars">

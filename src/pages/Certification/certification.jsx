@@ -17,7 +17,7 @@ import './certification.css'
     </div>
     </>
  )
- }
+ } 
 
 
  export default Certification

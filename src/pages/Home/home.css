@@ -1,9 +1,9 @@
 .greeting-name h2{
     color:rgb(7, 180, 248);
     font-weight: bold;
-    font-size:20px;
-    margin-left:110px ;
-    margin-top:350px;
+    font-size:15px;
+    margin-left:110px;
+    margin-top:220px;
 }
 
 .greeting-name h3 {
@@ -36,7 +36,7 @@ hr {
 
 .handlelinkOne a {
     font-size: 2rem;
-    text-decoration: none;
+    text-decoration: none; 
     color:wheat;
 }
 
@@ -48,8 +48,65 @@ hr {
 .about h3 {
     color:rgb(7, 180, 248); 
     text-align: center;
+    font-size: 1rem; 
+    margin-top: 10px;
+
+}
+
+ 
+.about p {
+    color:white;
+    padding: 20px;
+    text-align: justify;
+    font-size: 0.8rem;
+    font-style: italic;
+}
+
+
+@media screen  and (min-width:380px) {
+    .greeting-name h2{
+    color:rgb(7, 180, 248);
+    font-weight: bold;
+    font-size:15px;
+    margin-left:110px;
+    margin-top:360px;
+}
+
+}
+
+@media screen  and (min-width:410px) {
+    .greeting-name h2{
+    color:rgb(7, 180, 248);
+    font-weight: bold;
+    font-size:15px;
+    margin-left:110px;
+    margin-top:330px;
+}
+
+}
+
+@media screen  and (min-width:510px) {
+    .greeting-name h2{
+    color:rgb(7, 180, 248);
+    font-weight: bold;
+    font-size:1.2rem;
+    margin-left:100px;
+    margin-top:330px;
+}
+
+.greeting-name h3 {
+    color:rgb(7, 180, 248);
+    font-weight: bolder;
+    font-size: 40px;
+    text-align: justify;
+    margin-left: 100px;
+}
+
+.about h3 {
+    color:rgb(7, 180, 248); 
+    text-align: center;
     font-size: 1.5rem; 
-    margin-top: 30px;
+    margin-top: 100px;
 
 }
 
@@ -61,4 +118,247 @@ hr {
     font-size: 1rem;
     font-style: italic;
 }
+
+
+}
+
+
+
+
+@media screen  and (min-width:610px) {
+    .greeting-name h2{
+    color:rgb(7, 180, 248);
+    font-weight: bold;
+    font-size:1.5rem;
+    margin-left:100px;
+    margin-top:330px;
+}
+
+.greeting-name h3 {
+    color:rgb(7, 180, 248);
+    font-weight: bolder;
+    font-size: 70px;
+    text-align: justify;
+    margin-left: 100px;
+}
+
+.about h3 {
+    color:rgb(7, 180, 248); 
+    text-align: center;
+    font-size: 1.5rem; 
+    margin-top: 100px;
+
+}
+
+ 
+.about p {
+    color:white;
+    padding: 20px;
+    text-align: justify;
+    font-size: 1rem;
+    font-style: italic;
+}
+
+.handles {
+   color:rgb(7, 180, 248); 
+   margin-left:100px;
+   margin-top: 20px;
+}
+
+.handles h3 {
+    font-size: 1.2rem;
+}
+
+.handlelinkOne {
+    display:flex;
+    flex-direction: row;
+    gap:50px;
+}
+
+hr {
+    margin: auto;
+    
+}
+
+.handlelinkOne a {
+    font-size: 2rem;
+    text-decoration: none; 
+    color:wheat;
+}
+
+
+.handlelinkOne a:hover {
+    transform: scale(1.1);
+}
+
+
+}
+
+
+
+
+
+@media screen  and (min-width:730px) {
+    .greeting-name h2{
+    color:rgb(7, 180, 248);
+    font-weight: bold;
+    font-size:1.5rem;
+    margin-left:140px;
+    margin-top:300px;
+}
+
+.greeting-name h3 {
+    color:rgb(7, 180, 248);
+    font-weight: bolder;
+    font-size: 70px;
+    text-align: justify;
+    margin-left:140px;
+}
+
+.about {
+    width:60vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+    margin-left: 25%;
+}
+
+.about h3 {
+    color:rgb(7, 180, 248); 
+    text-align: center;
+    font-size: 1.5rem; 
+}
+
+ 
+.about p {
+    color:white;
+    padding: 20px;
+    text-align: center;
+    font-size: 1rem;
+    width: 60vw;
+    font-style: italic;
+}
+
+.handles {
+   color:rgb(7, 180, 248); 
+    margin-left:140px;
+    margin-top: 20px;
+}
+
+.handles h3 {
+    font-size: 1.2rem;
+}
+
+.handlelinkOne {
+    display:flex;
+    flex-direction: row;
+    gap:50px;
+}
+
+hr {
+   display: none;
+    
+}
+
+.handlelinkOne a {
+    font-size: 2rem;
+    text-decoration: none; 
+    color:wheat;
+}
+
+
+.handlelinkOne a:hover {
+    transform: scale(1.1);
+}
+
+
+}
+
+
+
+
+
+@media screen  and (min-width:980px) {
+    .greeting-name h2{
+    color:rgb(7, 180, 248);
+    font-weight: bold;
+    font-size:1.5rem;
+    margin-left:200px;
+    margin-top:300px;
+}
+
+.greeting-name h3 {
+    color:rgb(7, 180, 248);
+    font-weight: bolder;
+    font-size: 70px;
+    text-align: justify;
+   margin-left:200px;
+}
+
+.about {
+    width:60vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+    margin-left: 35%;
+}
+
+.about h3 {
+    color:rgb(7, 180, 248); 
+    text-align: center;
+    font-size: 1.5rem; 
+}
+
+ 
+.about p {
+    color:white;
+    padding: 20px;
+    text-align: center;
+    font-size: 1rem;
+    width: 60vw;
+    font-style: italic;
+}
+
+.handles {
+   color:rgb(7, 180, 248); 
+   margin-left:200px;
+    margin-top: 20px;
+}
+
+.handles h3 {
+    font-size: 1.2rem;
+}
+
+.handlelinkOne {
+    display:flex;
+    flex-direction: row;
+    gap:50px;
+}
+
+hr {
+   display: none;
+    
+}
+
+.handlelinkOne a {
+    font-size: 2rem;
+    text-decoration: none; 
+    color:wheat;
+}
+
+
+.handlelinkOne a:hover {
+    transform: scale(1.1);
+}
+
+
+}
+
+
+
+
 

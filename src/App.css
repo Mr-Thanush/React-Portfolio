@@ -1,6 +1,69 @@
 body.dark {
     color:white;
+    background-color: rgb(32, 42, 46);
 }
+
+body.dark .container1{
+    background-color:rgb(32, 42, 46);
+    border: 2px solid white; 
+}
+
+body.dark .html{
+    background-color: rgb(32, 42, 46);
+    border: 2px solid white; 
+}
+
+body.dark .css{
+    background-color: rgb(32, 42, 46);
+    border: 2px solid white; 
+}
+
+
+body.dark .javascript{
+    background-color: rgb(32, 42, 46);
+    border: 2px solid white; 
+}
+
+
+body.dark .react{
+    background-color: rgb(32, 42, 46);
+    border: 2px solid white; 
+}
+
+body.dark .Comunication{
+    background-color: rgb(32, 42, 46);
+    border: 2px solid white; 
+}
+
+
+body.dark .ProblemSolving{
+    background-color: rgb(32, 42, 46);
+    border: 2px solid white; 
+}
+
+
+body.dark .TeamWork{
+    background-color: rgb(32, 42, 46);
+    border: 2px solid white; 
+}
+
+
+body.dark .LeaderShip{
+    background-color: rgb(32, 42, 46);
+    border: 2px solid white; 
+}
+
+body.dark .TimeManagement{
+    background-color: rgb(32, 42, 46);
+    border: 2px solid white; 
+}
+
+
+body.dark .container2{
+    background-color:rgb(32, 42, 46);
+    border: 2px solid white; 
+}
+
 
 body.light .navLinks a{
     color:black;

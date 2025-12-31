@@ -1,10 +1,14 @@
 .heading h1{
-    margin: 50px 0 0 20px;
+   margin: 20px;
+    text-align: center;
+    color: rgb(0, 166, 255);
 }
 
+
 .heading hr {
-    border: 3px solid black;
+    display: none;
     width: 100vw;
+    margin: auto;
 }
 
 .certificatesFirst{
@@ -13,7 +17,7 @@
      justify-content: start;
      flex-wrap: wrap;
      gap: 10px;
-     width: 100vw;
+     width: 95vw;
      margin-left: 10px;
 
 }
@@ -33,3 +37,30 @@
 .certificatesFirst a:hover {
     box-shadow: 0 0 20px  rgb(68, 70, 70);
 }
+@media screen and (min-width:510px){
+    .certificatesFirst{
+     display: flex;
+     align-items: center;
+     justify-content: start;
+     flex-wrap: wrap;
+     gap: 10px;
+     width: 100vw;
+     margin-left: 10px;
+}
+
+}
+
+ 
+@media screen and (min-width:620px){
+    .certificatesFirst{
+     display: flex;
+     align-items: center;
+     justify-content: center;
+     gap: 10px;
+     width: 80vw;
+     margin-left: 10%;
+}
+
+}
+
+ 

@@ -1,6 +1,6 @@
 .box1 {
-    width: 90vw;
-    margin: 50px auto;
+    width: 80vw; 
+    margin: 20px auto;
     border: 2px solid rgb(128, 125, 125);
     border-radius: 20px;
 }
@@ -33,16 +33,15 @@ text-shadow: 0 0 20px rgb(128, 125, 125);
 h1 {
     color: rgb(125, 127, 128);
     text-decoration: underline;
+    margin-top: 20px;
     text-align: center;
-      text-shadow: 0 0 2px rgb(128, 125, 125);
-      font-size:2rem;
-      margin-bottom: 30px;
+    text-shadow: 0 0 2px rgb(128, 125, 125);
+    font-size:1.2rem;
 }
 
 
 .box2 {
      width: 90vw;
-     height: 70vh;
     margin:auto;
     border: 2px solid rgb(128, 125, 125);
     border-radius: 20px;
@@ -68,7 +67,6 @@ h1 {
     box-shadow: 0 0 20px rgb(128, 125, 125);
 }
 
-
 .box2 form textarea {
      height:35vh;
      border-radius: 20px;
@@ -84,9 +82,8 @@ h1 {
 }
 
 .box2 form button {
-    width: 20vw;
     border-radius: 20px;
-    height:5vh;
+    padding: 5px;
     font-size: 1.3rem;
     margin: 10px auto;
     text-align: center;
@@ -100,7 +97,6 @@ h1 {
 .box3 {
     display: none;
 }
-
 
 
 @media screen and (min-width:600px){
@@ -145,27 +141,35 @@ h1 {
 }
 
 .box3 {
-    display: flex;
+    display: none;
     flex-direction: column;
     gap:20px;
-    width: 45vw;
+    width: 40vw;
     position: absolute;
-    top:15%;
-    left:50%;
-
+    top:25%;
+    left:58%;
 }
-
+ 
 
 .box3 h2 {
-   font-size: 3.5rem;
+   font-size: 2rem;
    font-weight: bolder;
    text-decoration: underline;
    
 }
 
+.box3 h3 {
+   font-size: 1.2rem;
+   font-weight: bolder;
+   text-decoration: underline;
+   
+}
+
+
+
 .box3 p {
     text-align: justify;
-
+    font-size: smaller;
 }
 
 
@@ -173,14 +177,14 @@ h1 {
 
 
 .box2 {
-     width: 40vw;
-     height: 60vh;
-    margin-left: 30px;
-    margin-top: 100px;
+     width: 60vw;
+    margin:100px auto;
     border: 2px solid rgb(128, 125, 125);
     border-radius: 20px;
     box-shadow: 0 0 10px rgb(128, 125, 125);
 }
+
+
 
 
 }
@@ -188,7 +192,7 @@ h1 {
 
 @media screen and (min-width:810px){
   .box1 {
-    width: 50vw;
+    width: 80vw;
     margin: 30px auto;
     border: 2px solid rgb(128, 125, 125);
     border-radius: 20px;
@@ -205,72 +209,28 @@ h1 {
     font-size: 1.5rem;
 }
 
+
 .box3 {
-    display: flex;
+    display: none;
     flex-direction: column;
     gap:20px;
     width: 45vw;
     position: absolute;
-    top:15%;
-    left:50%;
+    top:25%;
+    left:55%;
 
 }
-
-.box3 h2 {
-   font-size: 3.5rem;
-   font-weight: bolder;
-   text-decoration: underline;
-   
-}
-
-.box3 p {
-    text-align: justify;
-
-}
-
-
 
 .box2 {
-     width: 40vw;
-     height: 60vh;
-    margin-left: 20px;
-    margin-top: 100px;
+     width: 60vw;
+    margin:100px auto;
     border: 2px solid rgb(128, 125, 125);
     border-radius: 20px;
     box-shadow: 0 0 10px rgb(128, 125, 125);
 }
 
-.box3 .mernStack {
-    border: 2px solid rgb(128, 125, 125);
-    border-radius: 20px;
-    padding: 5px;
-    box-shadow: 0 0 20px rgb(128, 125, 125);
-}
-
-.box3 .webApp {
-    border: 2px solid rgb(128, 125, 125);
-    border-radius: 20px;
-   padding: 5px;
-    box-shadow: 0 0 20px rgb(128, 125, 125);
-}
 
 
-
-.box3 .reactFrontEnd {
-    border: 2px solid rgb(128, 125, 125);
-    border-radius: 20px;
-    padding: 5px;
-    box-shadow: 0 0 20px rgb(128, 125, 125);
-}
-
-
-
-.box3 .responsive {
-    border: 2px solid rgb(128, 125, 125);
-    border-radius: 20px;
-    padding: 5px;
-    box-shadow: 0 0 20px rgb(128, 125, 125);
-}
 
 
 }
@@ -301,74 +261,119 @@ h1 {
 }
 
 .box3 {
+    display: none;
+
+}
+
+
+
+.box2 {
+     width: 60vw;
+    margin:100px auto;
+    border: 2px solid rgb(128, 125, 125);
+    border-radius: 20px;
+    box-shadow: 0 0 10px rgb(128, 125, 125);
+}
+
+
+}
+
+
+
+
+
+
+@media screen and (min-width:1010px){
+   .box1 {
+    width: 50vw;
+    margin: 30px auto;
+    border: 2px solid rgb(128, 125, 125);
+    border-radius: 20px;
+}
+
+
+.links {
+    text-decoration: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    font-size: 1.5rem;
+}
+
+.box3 {
     display: flex;
     flex-direction: column;
     gap:20px;
     width: 45vw;
     position: absolute;
-    top:15%;
-    left:50%;
-
-}
-
-.box3 h2 {
-   font-size: 3.5rem;
-   font-weight: bolder;
-   text-decoration: underline;
-   
-}
-
-.box3 p {
-    text-align: justify;
-
+    top:25%;
+    left:55%;
 }
 
 
 
 
 .box2 {
-     width: 40vw;
-     height: 60vh;
-    margin-left: 20px;
+     width: 50vw;
+    margin:100px 10px;
     border: 2px solid rgb(128, 125, 125);
     border-radius: 20px;
     box-shadow: 0 0 10px rgb(128, 125, 125);
 }
 
-.box3 .mernStack {
+.box3 h2 {
+   font-size: 3rem;
+   font-weight: bolder;
+   text-decoration: underline;
+   
+}
+
+.box3 h3 {
+   font-size: 1.2rem;
+   font-weight: bolder;
+   text-decoration: underline;
+   
+}
+
+
+
+.box3 p {
+    text-align: justify;
+    font-size: smaller;
+    width: 40vw;
+}
+
+
+
+
+}
+
+
+@media screen and (min-width:1210px){
+
+    .box2 {
+     width: 40vw;
+    margin:100px 50px;
     border: 2px solid rgb(128, 125, 125);
     border-radius: 20px;
-    padding: 5px;
-    box-shadow: 0 0 20px rgb(128, 125, 125);
+    box-shadow: 0 0 10px rgb(128, 125, 125);
+}
 }
 
-.box3 .webApp {
+@media screen and (min-width:1510px){
+
+    .box2 {
+     width: 30vw;
+    margin:100px 50px;
     border: 2px solid rgb(128, 125, 125);
     border-radius: 20px;
-   padding: 5px;
-    box-shadow: 0 0 20px rgb(128, 125, 125);
+    box-shadow: 0 0 10px rgb(128, 125, 125);
+}
 }
 
 
-
-.box3 .reactFrontEnd {
-    border: 2px solid rgb(128, 125, 125);
-    border-radius: 20px;
-    padding: 5px;
-    box-shadow: 0 0 20px rgb(128, 125, 125);
-}
-
-
-
-.box3 .responsive {
-    border: 2px solid rgb(128, 125, 125);
-    border-radius: 20px;
-    padding: 5px;
-    box-shadow: 0 0 20px rgb(128, 125, 125);
-}
-
-
-}
 
 
 

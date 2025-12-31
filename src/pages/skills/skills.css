@@ -7,8 +7,12 @@
 
 .container1 {
  width:100vw;
- box-shadow: 0 14px 20px black;
- padding:10px;
+ border: 2px solid black;
+ cursor: pointer;
+}
+
+.container1:hover{
+    transform: scale(1.1);
 }
  
 .skill1 {
@@ -20,8 +24,14 @@
 
 .container2 {
  width:100vw;
- box-shadow: 0 14px 20px black;
+ border: 2px solid black;
+ cursor: pointer;
 }
+
+.container2:hover{
+    transform: scale(1.1);
+}
+ 
 
 .skill2 {
    color:rgb(7, 180, 248);
@@ -35,6 +45,7 @@
 }
 .container1.now .ProfSkills{
     display: block;
+    height: 40vh;
 }
 
 .softSkills {
@@ -43,40 +54,48 @@
 
 .container2.soft .softSkills{
     display: block;
+     height: 50vh;
 }
 
 
 .html {
-    width: 90vw;
+    width: 75vw;
     background: rgb(227, 226, 226);
-    height: 10vh;
-    margin: 40px auto;
+    height: 8vh;
+    padding: 5px;
+    margin: 5px auto;
     border-radius: 10px;
-    box-shadow: 0 0px 20px black;
+    box-shadow: 0 10px 20px black;
 }
 
-.html pre {
+.htmlHeading{
+    display: flex;
+    gap: 40vw;
+    justify-content: center;
     color: rgb(7, 180, 248);
-    width: 65vw;
-    height: 5vh;
-    font-weight: bolder;
-    font-size: 27px;
-    margin: auto;
-    padding-top: 15px;
-    text-align: center;
+    align-items: center;
+}
+
+.htmlHeading h2 {
+    font-size: 1rem;
+    font-weight: bold;
+}
+
+.htmlHeading h3 {
+    font-size: 1rem;
+    font-weight: bold;
 }
 
 .barsOne {
      width:70vw;
      margin: auto;
-     
 }
 .barsOne .barOne {
     width:65vw;
     height: 1vh;
     background: rgb(91, 73, 73);
-    margin:auto;
-    border: 3px solid rgb(109, 110, 110);
+    margin: auto;
+    border: 1.5px solid rgb(109, 110, 110);
     border-radius: 20px;
     box-shadow: 0 0 20px rgb(249, 2, 216);
 }
@@ -84,11 +103,10 @@
 .barOne .bar2 {
     background: rgb(249, 2, 212);
     width:60vw;
-     border: 2px solid rgb(249, 2, 216); 
+    border: 2px solid rgb(249, 2, 216); 
      
 }
  
-
 .bars1 {
      width:70vw;
      margin: auto;
@@ -99,7 +117,7 @@
     height: 1vh;
     background: rgb(91, 73, 73);
     margin:auto;
-    border: 3px solid rgb(109, 110, 110);
+    border: 1.5px solid rgb(109, 110, 110);
     border-radius: 20px;
     box-shadow: 0 0 20px rgb(249, 2, 216);
 }
@@ -122,7 +140,7 @@
     height: 1vh;
     background: rgb(91, 73, 73);
     margin:auto;
-    border: 3px solid rgb(109, 110, 110);
+    border: 1.5px solid rgb(109, 110, 110);
     border-radius: 20px;
     box-shadow: 0 0 20px rgb(249, 2, 216);
 }
@@ -145,14 +163,14 @@
     height: 1vh;
     background: rgb(91, 73, 73);
     margin:auto;
-    border: 3px solid rgb(109, 110, 110);
+    border: 1.5px solid rgb(109, 110, 110);
     border-radius: 20px;
     box-shadow: 0 0 20px rgb(249, 2, 216);
 }
 
 .bars3 .barOne .bar2 {
     background: rgb(249, 2, 212);
-    width:56vw;
+    width:57vw;
      border: 2px solid rgb(249, 2, 216); 
      
 }
@@ -162,12 +180,12 @@
      margin: auto;
      
 }
-.bars4 .barOne {
+.bars4 .barOne { 
     width:65vw;
     height: 1vh;
     background: rgb(91, 73, 73);
     margin:auto;
-    border: 3px solid rgb(109, 110, 110);
+    border: 1.5px solid rgb(109, 110, 110);
     border-radius: 20px;
     box-shadow: 0 0 20px rgb(249, 2, 216);
 }
@@ -190,7 +208,7 @@
     height: 1vh;
     background: rgb(91, 73, 73);
     margin:auto;
-    border: 3px solid rgb(109, 110, 110);
+    border: 1.5px solid rgb(109, 110, 110);
     border-radius: 20px;
     box-shadow: 0 0 20px rgb(249, 2, 216);
 }
@@ -212,7 +230,7 @@
     height: 1vh;
     background: rgb(91, 73, 73);
     margin:auto;
-    border: 3px solid rgb(109, 110, 110);
+    border: 1.5px solid rgb(109, 110, 110);
     border-radius: 20px;
     box-shadow: 0 0 20px rgb(249, 2, 216);
 }
@@ -236,7 +254,7 @@
     height: 1vh;
     background: rgb(91, 73, 73);
     margin:auto;
-    border: 3px solid rgb(109, 110, 110);
+    border: 1.5px solid rgb(109, 110, 110);
     border-radius: 20px;
     box-shadow: 0 0 20px rgb(249, 2, 216);
 }
@@ -260,7 +278,7 @@
     height: 1vh;
     background: rgb(91, 73, 73);
     margin:auto;
-    border: 3px solid rgb(109, 110, 110);
+    border: 1.5px solid rgb(109, 110, 110);
     border-radius: 20px;
     box-shadow: 0 0 20px rgb(249, 2, 216);
 }
@@ -274,174 +292,1165 @@
 
 
 
-
 .css {
-    width: 90vw;
+     width: 75vw;
     background: rgb(227, 226, 226);
-    height: 10vh;
-    margin: 40px auto;
+    height: 8vh;
+    margin: 5px auto;
+    padding: 7px;
     border-radius: 10px;
-    box-shadow: 0 0px 20px black;
+    box-shadow: 0 10px 20px black;
 }
 
-.css pre {
-   color: rgb(7, 180, 248);
-    width: 65vw;
-    height: 5vh;
-    font-weight: bolder;
-    font-size: 27px;
-    margin: 15px auto;
-    padding-top: 15px;
-    text-align: center;
+.cssHeading{
+    display: flex;
+    gap: 43vw;
+    justify-content: center;
+    color: rgb(7, 180, 248);
+    align-items: center;
 }
+
+.cssHeading h2 {
+    font-size: 1rem;
+    font-weight: bold;
+}
+
+.cssHeading h3 {
+    font-size: 1rem;
+    font-weight: bold;
+}
+
+
 
 .javascript {
-     width: 90vw;
+     width: 75vw;
     background: rgb(227, 226, 226);
-    height: 10vh;
-    margin: 40px auto;
+    height: 8vh;
+     padding: 7px;
+    margin: 5px auto;
     border-radius: 10px;
-    box-shadow: 0 0px 20px black;
+    box-shadow: 0 10px 20px black;
 }
 
-.javascript pre {
+.jsHeading{
+    display: flex;
+    gap: 25vw;
+    justify-content: center;
     color: rgb(7, 180, 248);
-    width: 65vw;
-    height: 5vh;
-    font-weight: bolder;
-    font-size: 27px;
-    margin: 15px auto;
-    padding-top: 15px;
-    text-align: center;
+    align-items: center;
 }
+
+.jsHeading h2 {
+    font-size: 1rem;
+    font-weight: bold;
+}
+
+.jsHeading h3 {
+    font-size: 1rem;
+    font-weight: bold;
+}
+
 
 
 
 .react {
-     width: 90vw;
+    width: 75vw;
     background: rgb(227, 226, 226);
-    height: 10vh;
-    margin: 40px auto;
+    height: 8vh;
+     padding: 7px;
+    margin: 5px auto;
     border-radius: 10px;
-    box-shadow: 0 0px 20px black;
+    box-shadow: 0 10px 20px black;
 }
 
-.react pre {
+.reactHeading{
+    display: flex;
+    gap: 35vw;
+    justify-content: center;
     color: rgb(7, 180, 248);
-    width: 65vw;
-    height: 5vh;
-    font-weight: bolder;
-    font-size: 27px;
-    margin: 15px auto;
-    padding-top: 15px;
-    text-align: center;
+    align-items: center;
+}
+
+.reactHeading h2 {
+    font-size: 1rem;
+    font-weight: bold;
+}
+
+.reactHeading h3 {
+    font-size: 1rem;
+    font-weight: bold;
 }
 
 
 .Comunication {
-     width: 90vw;
+     width: 75vw;
     background: rgb(227, 226, 226);
-    height: 10vh;
-    margin: 40px auto;
+    height: 8vh;
+     padding: 7px;
+    margin: 5px auto;
     border-radius: 10px;
-    box-shadow: 0 0px 20px black;
+    box-shadow: 0 10px 20px black;
 }
 
-.Comunication pre {
-     color: rgb(7, 180, 248);
-    width: 65vw;
-    height: 5vh;
-    font-weight: bolder;
-    font-size: 27px;
-    margin: 15px auto;
-    padding-top: 15px;
-    text-align: center;
+.ComunicationHeading{
+    display: flex;
+    gap: 20vw;
+    justify-content: center;
+    color: rgb(7, 180, 248);
+    align-items: center;
 }
 
+.ComunicationHeading h2 {
+    font-size: 1rem;
+    font-weight: bold;
+}
+
+.ComunicationHeading h3 {
+    font-size: 1rem;
+    font-weight: bold;
+}
 
 .ProblemSolving {
-     width: 90vw;
+     width: 75vw;
     background: rgb(227, 226, 226);
-    height: 10vh;
-    margin: 40px auto;
+    height: 8vh;
+     padding: 7px;
+    margin: 5px auto;
     border-radius: 10px;
-    box-shadow: 0 0px 20px black;
+    box-shadow: 0 10px 20px black;
 }
 
-.ProblemSolving pre {
+.ProblemSolvingHeading{
+    display: flex;
+    gap: 15vw;
+    justify-content: center;
     color: rgb(7, 180, 248);
-    width: 65vw;
-    height: 5vh;
-    font-weight: bolder;
-    font-size: 27px;
-    margin: 15px auto;
-    padding-top: 15px;
-    text-align: center;
+    align-items: center;
+}
+
+.ProblemSolvingHeading h2 {
+    font-size: 1rem;
+    font-weight: bold;
+}
+
+.ProblemSolvingHeading h3 {
+    font-size: 1rem;
+    font-weight: bold;
 }
 
 
 .TeamWork {
-     width: 90vw;
+     width: 75vw;
     background: rgb(227, 226, 226);
-    height: 10vh;
-    margin: 40px auto;
+    height: 8vh;
+     padding: 7px;
+    margin: 5px auto;
     border-radius: 10px;
-    box-shadow: 0 0px 20px black;
+    box-shadow: 0 10px 20px black;
 }
 
-.TeamWork pre {
-   color: rgb(7, 180, 248);
-    width: 65vw;
-    height: 5vh;
-    font-weight: bolder;
-    font-size: 27px;
-    margin: 15px auto;
-    padding-top: 15px;
-    text-align: center;
+.TeamWorkHeading{
+    display: flex;
+    gap: 30vw;
+    justify-content: center;
+    color: rgb(7, 180, 248);
+    align-items: center;
 }
 
+.TeamWorkHeading h2 {
+    font-size: 1rem;
+    font-weight: bold;
+}
+
+.TeamWorkHeading h3 {
+    font-size: 1rem;
+    font-weight: bold;
+}
 
 
 .TimeManagement {
-     width: 90vw;
+     width: 75vw;
     background: rgb(227, 226, 226);
-    height: 10vh;
-    margin: 40px auto;
+    height: 8vh;
+     padding: 7px;
+    margin: 5px auto;
     border-radius: 10px;
-    box-shadow: 0 0px 20px black;
+    box-shadow: 0 10px 20px black;
 }
 
-.TimeManagement pre {
+.TimeManagementHeading{
+    display: flex;
+    gap: 13vw;
+    justify-content: center;
     color: rgb(7, 180, 248);
-    width: 65vw;
-    height: 5vh;
-    font-weight: bolder;
-    font-size: 27px;
-    margin: 15px auto;
-    padding-top: 15px;
-    text-align: center;
+    align-items: center;
+}
+
+.TimeManagementHeading h2 {
+    font-size: 1rem;
+    font-weight: bold;
+}
+
+.TimeManagementHeading h3 {
+    font-size: 1rem;
+    font-weight: bold;
 }
 
 
 
 .LeaderShip {
-     width: 90vw;
+      width: 75vw;
     background: rgb(227, 226, 226);
-    height: 10vh;
-    margin: 40px auto;
+    height: 8vh;
+     padding: 7px;
+    margin: 5px auto;
     border-radius: 10px;
-    box-shadow: 0 0px 20px black;
+    box-shadow: 0 10px 20px black;
 }
 
-.LeaderShip pre {
+.LeaderShipHeading{
+    display: flex;
+    gap: 27vw;
+    justify-content: center;
     color: rgb(7, 180, 248);
-    width: 65vw;
+    align-items: center;
+}
+
+.LeaderShipHeading h2 {
+    font-size: 1rem;
+    font-weight: bold;
+}
+
+.LeaderShipHeading h3 {
+    font-size: 1rem;
+    font-weight: bold;
+}
+
+
+
+@media screen and (min-width:380px) {
+    .Containers {
+    display: flex;
+    flex-direction: column;
+    gap: 0px;
+
+}
+
+.container1 {
+ width:100vw;
+ padding:10px;
+ margin: 25px auto 10px auto;
+ z-index: 2;
+ background-color: white;
+}
+ 
+.skill1 {
+    color:rgb(7, 180, 248);
+    text-decoration: none;
+    padding: 10px; 
+    font-size: 1.2rem;
+} 
+
+.container2 {
+ width:100vw;
+ margin: 0 auto;
+ background-color: white;
+}
+
+.skill2 {
+   color:rgb(7, 180, 248);
+   margin: 0 auto;
+   text-decoration: none;
+    padding: 20px;
+    font-size: 1.4rem;
+}
+
+
+
+}
+
+
+
+
+
+
+@media screen and (min-width:520px) {
+ .Containers {
+    display: flex;
+    flex-direction: column;
+    gap: 0px;
+}
+
+.container1 {
+ width:100vw;
+ padding:10px;
+ margin: 25px auto 10px auto;
+ z-index: 2;
+ background-color: white;
+}
+ 
+.skill1 {
+    color:rgb(7, 180, 248);
+    text-decoration: none;
+    padding: 10px; 
+    font-size: 1.5rem;
+} 
+
+.container1:hover{
+    transform: none;
+}
+.container2:hover{
+    transform: none;
+}
+
+.container2 {
+ width:100vw;
+ margin: 0 auto;
+ background-color: white;
+}
+
+.skill2 {
+   color:rgb(7, 180, 248);
+   margin: 0 auto;
+   text-decoration: none;
+    padding: 20px;
+   font-size: 1.5rem;
+}
+
+
+.html {
+    width: 75vw;
+    background: rgb(227, 226, 226);
+    height: 8vh;
+    padding: 5px;
+    margin: 5px auto;
+    border-radius: 10px;
+    box-shadow: 0 10px 20px black;
+}
+
+.htmlHeading{
+    display: flex;
+    gap: 45vw;
+    justify-content: center;
+    color: rgb(7, 180, 248);
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.htmlHeading h2 {
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.htmlHeading h3 {
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.css {
+    width: 75vw;
+    background: rgb(227, 226, 226);
+    height: 8vh;
+    padding: 5px;
+    margin: 5px auto;
+    border-radius: 10px;
+    box-shadow: 0 10px 20px black;
+}
+
+.cssHeading{
+    display: flex;
+    gap: 48vw;
+    justify-content: center;
+    color: rgb(7, 180, 248);
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.cssHeading h2 {
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.cssHeading h3 {
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.javascript {
+    width: 75vw;
+    background: rgb(227, 226, 226);
+    height: 8vh;
+    padding: 5px;
+    margin: 5px auto;
+    border-radius: 10px;
+    box-shadow: 0 10px 20px black;
+}
+
+
+
+.jsHeading{
+    display: flex;
+    gap: 33vw;
+    justify-content: center;
+    color: rgb(7, 180, 248);
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.jsHeading h2 {
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.jsHeading h3 {
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.react {
+    width: 75vw;
+    background: rgb(227, 226, 226);
+    height: 8vh;
+    padding: 5px;
+    margin: 5px auto;
+    border-radius: 10px;
+    box-shadow: 0 10px 20px black;
+}
+
+.reactHeading{
+    display: flex;
+    gap: 43vw;
+    justify-content: center;
+    color: rgb(7, 180, 248);
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.reactHeading h2 {
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.reactHeading h3 {
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+
+
+.ComunicationHeading{
+    display: flex;
+    gap: 25vw;
+    justify-content: center;
+    color: rgb(7, 180, 248);
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.ComunicationHeading h2 {
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.ComunicationHeading h3 {
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.ProblemSolvingHeading{
+    display: flex;
+    gap: 21vw;
+    justify-content: center;
+    color: rgb(7, 180, 248);
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.ProblemSolvingHeading h2 {
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.ProblemSolvingHeading h3 {
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+
+.TeamWorkHeading{
+    display: flex;
+    gap: 34vw;
+    justify-content: center;
+    color: rgb(7, 180, 248);
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.TeamWorkHeading h2 {
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.TeamWorkHeading h3 {
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+
+.TimeManagementHeading{
+    display: flex;
+    gap: 20vw;
+    justify-content: center;
+    color: rgb(7, 180, 248);
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.TimeManagementHeading h2 {
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.TimeManagementHeading h3 {
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+
+.LeaderShipHeading{
+    display: flex;
+    gap: 32vw;
+    justify-content: center;
+    color: rgb(7, 180, 248);
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.LeaderShipHeading h2 {
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.LeaderShipHeading h3 {
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.barsOne .barOne {
+    width:65vw;
+    height: 1vh;
+    background: rgb(91, 73, 73);
+    margin:auto;
+    border: 3px solid rgb(109, 110, 110);
+    border-radius: 20px;
+    box-shadow: 0 0 20px rgb(249, 2, 216);
+}
+
+.bars1 .barOne {
+    width:65vw;
+    height: 1vh;
+    background: rgb(91, 73, 73);
+    margin:auto;
+    border: 3px solid rgb(109, 110, 110);
+    border-radius: 20px;
+    box-shadow: 0 0 20px rgb(249, 2, 216);
+}
+
+.bars2 .barOne {
+    width:65vw;
+    height: 1vh;
+    background: rgb(91, 73, 73);
+    margin:auto;
+    border: 3px solid rgb(109, 110, 110);
+    border-radius: 20px;
+    box-shadow: 0 0 20px rgb(249, 2, 216);
+}
+
+.bars3 .barOne {
+    width:65vw;
+    height: 1vh;
+    background: rgb(91, 73, 73);
+    margin:auto;
+    border: 3px solid rgb(109, 110, 110);
+    border-radius: 20px;
+    box-shadow: 0 0 20px rgb(249, 2, 216);
+}
+
+.bars4 .barOne {
+    width:65vw;
+    height: 1vh;
+    background: rgb(91, 73, 73);
+    margin:auto;
+    border: 3px solid rgb(109, 110, 110);
+    border-radius: 20px;
+    box-shadow: 0 0 20px rgb(249, 2, 216);
+}
+
+.bars5 .barOne {
+    width:65vw;
+    height: 1vh;
+    background: rgb(91, 73, 73);
+    margin:auto;
+    border: 3px solid rgb(109, 110, 110);
+    border-radius: 20px;
+    box-shadow: 0 0 20px rgb(249, 2, 216);
+}
+.bars6 .barOne {
+    width:65vw;
+    height: 1vh;
+    background: rgb(91, 73, 73);
+    margin:auto;
+    border: 3px solid rgb(109, 110, 110);
+    border-radius: 20px;
+    box-shadow: 0 0 20px rgb(249, 2, 216);
+}
+.bars7 .barOne {
+    width:65vw;
+    height: 1vh;
+    background: rgb(91, 73, 73);
+    margin:auto;
+    border: 3px solid rgb(109, 110, 110);
+    border-radius: 20px;
+    box-shadow: 0 0 20px rgb(249, 2, 216);
+}
+
+.bars8 .barOne {
+    width:65vw;
+    height: 1vh;
+    background: rgb(91, 73, 73);
+    margin:auto;
+    border: 3px solid rgb(109, 110, 110);
+    border-radius: 20px;
+    box-shadow: 0 0 20px rgb(249, 2, 216);
+}
+
+
+}
+
+
+
+
+
+
+@media screen and (min-width:720px) {
+ .Containers {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+}
+
+
+.container1 {
+ padding:10px;
+ margin: 25px auto;
+ height: 50vh;
+ z-index: 2;
+ background-color: white;
+ border: none;
+}
+ 
+
+.ProfSkills {
+    display: block;
+    width: 40vw;
+    margin: auto;
+}
+
+
+.softSkills {
+    display: block;
+    width: 40vw;
+     margin: auto;
+}
+
+.skill1 {
+    color:rgb(7, 180, 248);
+    text-decoration: none;
+    padding: 10px; 
+    font-size: 2rem;
+} 
+
+.container1:hover{
+    transform: none;
+}
+.container2:hover{
+    transform: none;
+}
+
+.container2 {
+ padding:10px;
+ margin: 25px auto 10px auto;
+ z-index: 2;
+ height: 50vh;
+ background-color: white;
+ border: none;
+}
+
+
+
+.skill2 {
+   color:rgb(7, 180, 248);
+   text-decoration: none;
+   padding: 10px;
+   font-size: 1.5rem;
+    font-size: 2rem;
+}
+
+
+.html {
+    width: 35vw;
+    background: none;
     height: 5vh;
-    font-weight: bolder;
-    font-size: 27px;
-    margin: 15px auto;
-    padding-top: 15px;
-    text-align: center;
+    padding: 5px;
+    margin: 30px auto;
+    border-radius: 10px;
+    box-shadow: 0 10px 20px black;
+}
+
+.html:hover{
+  transform: scale(1.1);
+}
+
+
+
+.htmlHeading{
+    display: flex;
+    gap: 20vw;
+    justify-content: center;
+    color: rgb(7, 180, 248);
+    align-items: center;
+    margin-bottom: 0px;
+}
+
+.htmlHeading h2 {
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+
+.htmlHeading h3 {
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+
+.css {
+    width: 35vw;
+     margin: 30px auto;
+    background: none;
+    height: 5vh;
+    padding: 5px;
+    border-radius: 10px;
+    box-shadow: 0 10px 20px black;
+}
+.css:hover{
+  transform: scale(1.1);
+}
+
+.cssHeading{
+    display: flex;
+    gap: 21vw;
+    justify-content: center;
+    color: rgb(7, 180, 248);
+    align-items: center;
+    margin-bottom: 0px;
+}
+
+.cssHeading h2 {
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+
+.cssHeading h3 {
+     font-size: 1.2rem;
+    font-weight: bold;
+}
+
+.javascript {
+    width: 35vw;
+    background: none;
+    height: 5vh;
+    padding: 5px;
+    margin: 30px auto;
+    border-radius: 10px;
+    box-shadow: 0 10px 20px black;
+}
+
+.javascript:hover{
+  transform: scale(1.1);
+}
+
+
+
+.jsHeading{
+    display: flex;
+    gap: 14.5vw;
+    justify-content: center;
+    color: rgb(7, 180, 248);
+    align-items: center;
+    margin-bottom: 0px;
+}
+
+.jsHeading h2 {
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+
+.jsHeading h3 {
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+
+.react {
+  width: 35vw;
+    background: none;
+    height: 5vh;
+    padding: 5px;
+   margin: 30px auto;
+    border-radius: 10px;
+    box-shadow: 0 10px 20px black;
+}
+.react:hover{
+  transform: scale(1.1);
+}
+
+.reactHeading{
+    display: flex;
+    gap: 19vw;
+    justify-content: center;
+    color: rgb(7, 180, 248);
+    align-items: center;
+    margin-bottom: 0px;
+}
+
+.reactHeading h2 {
+   font-size: 1.2rem;
+    font-weight: bold;
+}
+
+.reactHeading h3 {
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+
+
+.Comunication {
+   width: 35vw;
+   background: none;
+    height: 5vh;
+    padding: 5px;
+    margin: 30px auto;
+    border-radius: 10px;
+    box-shadow: 0 10px 20px black;
+}
+.Comunication:hover{
+  transform: scale(1.1);
+}
+
+.ComunicationHeading{
+    display: flex;
+    gap: 13vw;
+    justify-content: center;
+    color: rgb(7, 180, 248);
+    align-items: center;
+    margin-bottom: 0px;
+}
+
+.ComunicationHeading h2 {
+     font-size: 1.2rem;
+    font-weight: bold;
+}
+
+.ComunicationHeading h3 {
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+
+.ProblemSolving {
+   width: 35vw;
+   background: none;
+    height: 5vh;
+    padding: 5px;
+     margin: 30px auto;
+    border-radius: 10px;
+    box-shadow: 0 10px 20px black;
+}
+.ProblemSolving:hover{
+  transform: scale(1.1);
+}
+
+.ProblemSolvingHeading{
+    display: flex;
+    gap: 11.5vw;
+    justify-content: center;
+    color: rgb(7, 180, 248);
+    align-items: center;
+    margin-bottom: 0px;
+}
+
+.ProblemSolvingHeading h2 {
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+
+.ProblemSolvingHeading h3 {
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+
+
+.TeamWork {
+   width: 35vw;
+    background: none;
+    height: 5vh;
+    padding: 5px;
+     margin: 30px auto;
+    border-radius: 10px;
+    box-shadow: 0 10px 20px black;
+}
+.TeamWork:hover{
+  transform: scale(1.1);
+}
+
+
+.TeamWorkHeading{
+    display: flex;
+     gap: 17.5vw;
+    justify-content: center;
+    color: rgb(7, 180, 248);
+    align-items: center;
+    margin-bottom: 0px;
+}
+
+.TeamWorkHeading h2 {
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+
+.TeamWorkHeading h3 {
+     font-size: 1.2rem;
+    font-weight: bold;
+}
+
+
+
+.TimeManagement {
+   width: 35vw;
+   background: none;
+    height: 5vh;
+    padding: 5px;
+     margin: 30px auto;
+    border-radius: 10px;
+    box-shadow: 0 10px 20px black;
+}
+
+.TimeManagement:hover{
+  transform: scale(1.1);
+}
+.TimeManagementHeading{
+    display: flex;
+    gap: 11vw;
+    justify-content: center;
+    color: rgb(7, 180, 248);
+    align-items: center;
+    margin-bottom: 0px;
+}
+
+.TimeManagementHeading h2 {
+     font-size: 1.2rem;
+    font-weight: bold;
+}
+
+.TimeManagementHeading h3 {
+     font-size: 1.2rem;
+    font-weight: bold;
+}
+
+
+.LeaderShip {
+   width: 35vw;
+   background: none;
+    height: 5vh;
+    padding: 5px;
+    margin: 30px auto;
+    border-radius: 10px;
+    box-shadow: 0 10px 20px black;
+}
+
+.LeaderShip:hover{
+  transform: scale(1.1);
+}
+
+
+.LeaderShipHeading{
+    display: flex;
+     gap: 16.5vw;
+    justify-content: center;
+    color: rgb(7, 180, 248);
+    align-items: center;
+    margin-bottom: 0px;
+}
+
+.LeaderShipHeading h2 {
+     font-size: 1.2rem;
+    font-weight: bold;
+}
+
+.LeaderShipHeading h3 {
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+
+.barsOne .barOne {
+    width:30vw;
+    height: 1vh;
+    background: rgb(91, 73, 73);
+    margin:auto 25px;
+    border: 2px solid rgb(109, 110, 110);
+    border-radius: 20px;
+    box-shadow: 0 0 20px rgb(249, 2, 216);
+}
+
+.bars1 .barOne {
+    width:30vw;
+    height: 1vh;
+    background: rgb(91, 73, 73);
+    margin:auto 25px;
+    border: 2px solid rgb(109, 110, 110);
+    border-radius: 20px;
+    box-shadow: 0 0 20px rgb(249, 2, 216);
+}
+
+.bars2 .barOne {
+    width:30vw;
+    height: 1vh;
+    background: rgb(91, 73, 73);
+    margin:auto 25px;
+    border: 2px solid rgb(109, 110, 110);
+    border-radius: 20px;
+    box-shadow: 0 0 20px rgb(249, 2, 216);
+}
+
+.bars3 .barOne {
+   width:30vw;
+    height: 1vh;
+    background: rgb(91, 73, 73);
+    margin:auto 25px;
+    border: 2px solid rgb(109, 110, 110);
+    border-radius: 20px;
+    box-shadow: 0 0 20px rgb(249, 2, 216);
+}
+
+.bars4 .barOne {
+   width:30vw;
+    height: 1vh;
+    background: rgb(91, 73, 73);
+    margin:auto 25px;
+    border: 2px solid rgb(109, 110, 110);
+    border-radius: 20px;
+    box-shadow: 0 0 20px rgb(249, 2, 216);
+}
+
+.bars5 .barOne {
+    width:30vw;
+    height: 1vh;
+    background: rgb(91, 73, 73);
+    margin:auto 25px;
+    border: 2px solid rgb(109, 110, 110);
+    border-radius: 20px;
+    box-shadow: 0 0 20px rgb(249, 2, 216);
+}
+.bars6 .barOne {
+    width:30vw;
+    height: 1vh;
+    background: rgb(91, 73, 73);
+    margin:auto 25px;
+    border: 2px solid rgb(109, 110, 110);
+    border-radius: 20px;
+    box-shadow: 0 0 20px rgb(249, 2, 216);
+}
+.bars7 .barOne {
+    width:30vw;
+    height: 1vh;
+    background: rgb(91, 73, 73);
+    margin:auto 25px;
+    border: 2px solid rgb(109, 110, 110);
+    border-radius: 20px;
+    box-shadow: 0 0 20px rgb(249, 2, 216);
+}
+
+.bars8 .barOne {
+    width:30vw;
+    height: 1vh;
+    background: rgb(91, 73, 73);
+    margin:auto 25px;
+    border: 2px solid rgb(109, 110, 110);
+    border-radius: 20px;
+    box-shadow: 0 0 20px rgb(249, 2, 216);
+}
+
+.barOne .bar2 {
+    background: rgb(249, 2, 212);
+    width:27vw;
+    border: 2px solid rgb(249, 2, 216); 
+     
+}
+
+.bars1 .barOne .bar2 {
+    background: rgb(249, 2, 212);
+    width:25vw;
+     border: 2px solid rgb(249, 2, 216); 
+     
+}
+
+.bars2 .barOne .bar2 {
+    background: rgb(249, 2, 212);
+    width:23vw;
+     border: 2px solid rgb(249, 2, 216); 
+     
+}
+
+.bars3 .barOne .bar2 {
+    background: rgb(249, 2, 212);
+    width:26vw;
+     border: 2px solid rgb(249, 2, 216); 
+     
+}
+
+.bars4 .barOne .bar2 {
+    background: rgb(249, 2, 212);
+    width:25vw;
+     border: 2px solid rgb(249, 2, 216); 
+     
+}
+
+.bars5 .barOne .bar2 {
+    background: rgb(249, 2, 212);
+    width:27vw;
+     border: 2px solid rgb(249, 2, 216); 
+     
+}
+
+.bars6 .barOne .bar2 {
+    background: rgb(249, 2, 212);
+    width:25vw;
+     border: 2px solid rgb(249, 2, 216); 
+     
+}
+
+.bars7 .barOne .bar2 {
+    background: rgb(249, 2, 212);
+    width:26vw;
+     border: 2px solid rgb(249, 2, 216); 
+     
+}
+
+.bars8 .barOne .bar2 {
+    background: rgb(249, 2, 212);
+    width:27vw;
+     border: 2px solid rgb(249, 2, 216); 
+     
+}
+ 
+
 }
 
 

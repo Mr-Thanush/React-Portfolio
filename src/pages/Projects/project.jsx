@@ -18,7 +18,7 @@ import "./project.css"
             <h3>STACK</h3>
         </div>
      </div>
-    </>
+    </> 
    )
  }
 
