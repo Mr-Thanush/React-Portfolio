@@ -19,7 +19,7 @@ function Skills (){
      <div className="barsOne">
         <div className="barOne">
             <div className="bar2"></div>
-            </div>
+            </div> 
      </div> 
         </div>
         <div className="css">

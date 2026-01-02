@@ -189,7 +189,7 @@ nav {
     }
 
     .navLinks {
-        min-height: 100vh;
+        min-height: 100vh; 
 
     }
 
@@ -263,7 +263,6 @@ nav {
 
     .navLinks {
         min-height: 100vh;
-        background-color: ;
     }
     .navLinks .a-top {
         list-style: none;
@@ -296,10 +295,7 @@ nav {
 
 
     .menuBars.open span:nth-child(1) {
-        transform: rotate(45deg) translate(5px, 6px);
-        position: absolute;
-        left: 5%;
-        top: 2.1%;
+        transform: rotate(45deg) translate(7px, 10px);
     }
 
     .menuBars.open .navLinks {
@@ -311,10 +307,7 @@ nav {
     }
 
     .menuBars.open span:nth-child(3) {
-        transform: rotate(-45deg) translate(6px, -6px);
-        position: absolute;
-        left: 5%;
-        top: 4.5%;
+        transform: rotate(-45deg) translate(-2px, 1px);
     }
 
 }
@@ -425,10 +418,7 @@ nav {
 
 
     .menuBars.open span:nth-child(1) {
-        transform: rotate(45deg) translate(5px, 6px);
-        position: absolute;
-        left: 5.11%;
-        top: 2%;
+        transform: rotate(45deg) translate(6px, 8px);
     }
 
     .menuBars.open .navLinks {
@@ -440,10 +430,7 @@ nav {
     }
 
     .menuBars.open span:nth-child(3) {
-        transform: rotate(-45deg) translate(6px, -6px);
-        position: absolute;
-        left: 5%;
-        top: 3.7%;
+        transform: rotate(-45deg) translate(2px, -3px);
     }
 
 }
@@ -658,10 +645,7 @@ nav {
 
 
     .menuBars.open span:nth-child(1) {
-        transform: rotate(45deg) translate(5px, 6px);
-        position: absolute;
-        left: 4%;
-        top: 2.1%;
+        transform: rotate(45deg) translate(1px, 9px);
     }
 
     .menuBars.open .navLinks {
@@ -673,10 +657,7 @@ nav {
     }
 
     .menuBars.open span:nth-child(3) {
-        transform: rotate(-45deg) translate(6px, -6px);
-        position: absolute;
-        left: 4%;
-        top: 4%;
+        transform: rotate(-45deg) translate(4px, -12px);
     }
 
 }
@@ -899,10 +880,7 @@ nav {
 
 
     .menuBars.open span:nth-child(1) {
-        transform: rotate(45deg) translate(5px, 6px);
-        position: absolute;
-        left: 3%;
-        top: 2.1%;
+        transform: rotate(45deg) translate(1px, 9px);
     }
 
     .menuBars.open .navLinks {
@@ -914,10 +892,7 @@ nav {
     }
 
     .menuBars.open span:nth-child(3) {
-        transform: rotate(-45deg) translate(6px, -6px);
-        position: absolute;
-        left: 3%;
-        top: 3.5%;
+        transform: rotate(-45deg) translate(7px, -15px);
     }
 
 }
@@ -1021,10 +996,7 @@ nav {
 
 
     .menuBars.open span:nth-child(1) {
-        transform: rotate(45deg) translate(5px, 6px);
-        position: absolute;
-        left: 3%;
-        top: 2.1%;
+        transform: rotate(45deg) translate(1px, 8px);
     }
 
     .menuBars.open .navLinks {
@@ -1036,10 +1008,7 @@ nav {
     }
 
     .menuBars.open span:nth-child(3) {
-        transform: rotate(-45deg) translate(6px, -6px);
-        position: absolute;
-        left: 3%;
-        top: 3.5%;
+        transform: rotate(-45deg) translate(9px, -18px);
     }
 
 }
@@ -1049,6 +1018,7 @@ nav {
 
     nav {
         width: 100%;
+        padding: 5px;
     }
 
     .navLinks {
@@ -1143,10 +1113,8 @@ nav {
 
 
     .menuBars.open span:nth-child(1) {
-        transform: rotate(45deg) translate(5px, 6px);
-        position: absolute;
-        left: 3%;
-        top: 2.1%;
+        transform: rotate(45deg) translate(1px, 8px);
+
     }
 
     .menuBars.open .navLinks {
@@ -1158,10 +1126,7 @@ nav {
     }
 
     .menuBars.open span:nth-child(3) {
-        transform: rotate(-45deg) translate(6px, -6px);
-        position: absolute;
-        left: 3%;
-        top: 3.5%;
+        transform: rotate(-45deg) translate(10px, -17px);
     }
 
 }
@@ -1265,10 +1230,7 @@ nav {
 
 
     .menuBars.open span:nth-child(1) {
-        transform: rotate(45deg) translate(5px, 6px);
-        position: absolute;
-        left: 3%;
-        top: 2.1%;
+        transform: rotate(45deg) translate(1px, 8px);
     }
 
     .menuBars.open .navLinks {
@@ -1280,10 +1242,8 @@ nav {
     }
 
     .menuBars.open span:nth-child(3) {
-        transform: rotate(-45deg) translate(6px, -6px);
-        position: absolute;
-        left: 3%;
-        top: 3.5%;
+        transform: rotate(-45deg) translate(8px, -16px);;
+
     }
 
 }
@@ -1298,13 +1258,12 @@ nav {
 
     .navLinks {
         min-height: 100vh;
-
+        margin-left: 0px;
     }
 
 
     .portfolio {
         color: rgb(7, 180, 248);
-        margin-left: 30px;
         margin-top: 5px;
         font-size: 2.5rem;
 
@@ -1388,10 +1347,7 @@ nav {
 
 
     .menuBars.open span:nth-child(1) {
-        transform: rotate(45deg) translate(5px, 6px);
-        position: absolute;
-        left: 3%;
-        top: 2.1%;
+        transform: rotate(45deg) translate(1px, 7px);
     }
 
     .menuBars.open .navLinks {
@@ -1403,10 +1359,7 @@ nav {
     }
 
     .menuBars.open span:nth-child(3) {
-        transform: rotate(-45deg) translate(6px, -6px);
-        position: absolute;
-        left: 3%;
-        top: 3.5%;
+        transform: rotate(-45deg) translate(10px,-16px);
     }
 
 }

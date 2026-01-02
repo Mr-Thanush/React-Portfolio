@@ -5,11 +5,11 @@ import './navbar.css'
 
 function NavBar({darkMode,setDarkMode}){
     const[open,setOpen]=useState(false);
-    const location=useLocation();
+    const location=useLocation(); 
  return ( 
     <> 
     <nav> 
-         <div className={`menuBars ${open ? "open":" "}`}
+         <div className={`menuBars ${open ? "open":""}`}
          onClick={()=>setOpen(!open)}>
                <div className="bars">
                   <span className="bar1"></span>

@@ -4,14 +4,14 @@ import './contact.css'
 function Contact() { 
   return (
     <>
-    <h1>Your Message Matters</h1>
+    <h1 className="heading">Your Message Matters</h1>
       <div className="box1">
         <div className="links">
           <a href="https://www.linkedin.com/in/thanush26" target="_blank"><i className="fa-brands fa-linkedin"></i></a>
           <a href="https://www.instagram.com/mr._thanush_" target="_blank"><i className="fa-brands fa-instagram"></i></a>
           <a href="https://github.com/Mr-Thanush" target="_blank"><i className="fa-brands fa-github"></i></a>
           <a href="https://www.youtube.com/@CodingAiWorkshop" target="_blank"><i className="fa-brands fa-youtube"></i></a>
-        </div>
+        </div> 
       </div>
       
       <div className="box2">

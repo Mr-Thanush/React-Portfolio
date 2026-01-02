@@ -3,6 +3,32 @@ body.dark {
     background-color: rgb(32, 42, 46);
 }
 
+body.dark form input{
+    background-color: rgb(132, 169, 189);
+    color:white;
+}
+
+body.dark .box1 .links a{
+     color:rgb(255, 174, 0);
+}
+
+body.dark .box1 {
+border:2px solid rgb(255, 174, 0);
+}
+
+body.dark .heading{
+color:rgb(0, 149, 255);
+}
+
+body.dark form textarea{
+    background-color: rgb(132, 169, 189);
+    color:white;
+}
+
+body.dark form button{
+    background-color: rgb(65, 103, 111);
+    color:white;
+}
 body.dark .container1{
     background-color:rgb(32, 42, 46);
     border: 2px solid white; 
@@ -11,7 +37,7 @@ body.dark .container1{
 body.dark .html{
     background-color: rgb(32, 42, 46);
     border: 2px solid white; 
-}
+} 
 
 body.dark .css{
     background-color: rgb(32, 42, 46);
